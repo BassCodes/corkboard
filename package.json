@@ -1,0 +1,10 @@
+{
+  "name": "corkboard",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alexander Bass",
+  "license": "GPLv3",
+  "dependencies": {
+    "rollup": "^2.78.1"
+  }
+}

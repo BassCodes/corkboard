@@ -1,0 +1,65 @@
+$text-color: white;
+
+$tackImage: url(assets/tack.png);
+$corkImage: url(assets/cork.png);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: $corkImage;
+  background-size: 11%;
+  background-repeat: repeat;
+  color: $text-color;
+  font-family: "Arial";
+  overflow-y: hidden;
+}
+
+
+.grabable:hover {
+  cursor: move;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.note {
+  position: absolute;
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  display: block;
+
+  textarea:focus {
+    outline: none;
+    border: none;
+  }
+
+  textarea {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    overflow-y: hidden;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: xxx-large;
+    resize: none;
+    background-color: transparent;
+    border: none;
+  }
+
+  .tack {
+
+    background-image: $tackImage;
+    background-size: contain;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
